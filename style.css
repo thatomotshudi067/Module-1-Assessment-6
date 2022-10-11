@@ -1,249 +1,136 @@
-/* ************************************************************************************************** */
-/* Universal styles */
-/* ************************************************************************************************** */
 body{
-    margin: 0;
-    padding: 0;
-    background-color: #ffffff;
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #363636;
+    padding    : 1px;
+    margin    : 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-p{
-    line-height: 190%;
-}
-
-a{
-    text-decoration: none;
-    color: teal;
-}
-
-table{
-    font-family: monospace;
-    border-width: 1px;
-    border-style: solid;
-    border-color: beige;
-}
-
-th{
-    font-weight: 800;
-    background-color: burlywood;
-    color: chocolate;
-}
-
-/* ************************************************************************************************** */
-/* Menu                                                                                               */
-/* ************************************************************************************************** */
-
+/*================Menu===================*/ 
 #menu{
-    background-color: chocolate;
-    height: 90px;
-}
-
-#menu ul{
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    text-align: center;
-}
-
-#menu li{
-    display: inline-block;
-}
-
-#menu a{
-    letter-spacing: 1px;
-    text-decoration: none;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 16px;
-    line-height: 100px;
-    color: #ffffff;
+     width:100%;
+     height:40px;
+    background-color:rgb(34, 155, 163) ;
+     padding-top: 12px;
+     margin-top:5px;
+     
     
-    padding: 0 40px;
-    border: none;
-    display: block;
 }
-
+#menu a{
+     color:rgb(255, 244, 244);
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 20px;
+     font-weight: 700;
+     text-decoration:none;
+     font-weight: 800px;
+     padding-left: 150px;
+     padding-right: 150px;
+     
+}
 #menu a:hover{
-    background-color: burlywood;   
+      color: #33e407;
 }
 
-/* ************************************************************************************************** */
-/* Header 
-/* ************************************************************************************************** */
 
-#header{
-    padding: 10px 0px 10px 0;
-    background-color: darkseagreen;
-    text-align: center;
-}
 
-#header h1{
-    letter-spacing: 0.1em;
-    font-size: 44px;
-    color: #ffffff;
-}
+/*================Main-home===================*/
 
-#header p{
-    letter-spacing: 0.1em;
-    color: #ffffff;
-}
 
-/* ************************************************************************************************** */
-/* Banner 
-/* ************************************************************************************************** */
+#main-home{
+      margin-top:1px;
+      padding: 10px;
+      width:100%;
+      display:inline-block;
+      background-image: url("images/background.jpg" );
+     }
+      
+ h1{
+color:red;
+text-align: center;
+      }
+     
 
-#banner{
-    height: 300px;
-}
 
-#banner img{
-    width: 100%;
-    height: 300px;
-}
+/*******************Table*************/
 
-/* ************************************************************************************************** */
-/* Page
-/* ************************************************************************************************** */
-
-#page{
-    min-height: 400px;
-    padding: 20px;
-}
-
-#page h2{
-    margin-bottom: 12px;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 18px;
-    color: #16a085;
-}
-
-/* CONTENT */
-
-#content{
-    float: left;
-    width: 70%;
-}
-
-/* SIDEBAR */
-
-#sidebar{
-    float: right;
-    width: 25%;
-}
-
-/* Lists */
-
-ul.styled{
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-ul.styled li{
-    border-top: solid 1px #e5e5e5;
-    padding: 14px 0px; 
-}
-
-/* ************************************************************************************************** */
-/* Footer
-/* ************************************************************************************************** */
-
-#footer{
-    width: 100%;
-    height: 340px;
-    background-color: darkseagreen;
-    padding-top: 25px;
-    padding-left: 22px;
-    clear: both;
-}
-
-#footer h2{
-    font-size: 18px;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: #ffffff;
-}
-
-#footer p{
-    color: white;
-}
-
-#footer a{
-    color: white;
-}
-
-#box1{
-    float: left;
-    width: 30%;
-    padding-right: 30px;
-}
-
-#box2{
-    float: left;
-    width: 30%;
-    padding-right: 30px;
-}
-
-#box3{
-    float: right;
-    width: 30%;
-    padding-left: 30px;
-}
-
-/* ************************************************************************************************** */
-/* Footer
-/* ************************************************************************************************** */
-
-#copyright{
-    width: 100%;
-    height: 130px;
-    text-align: center;
-    background-color: chocolate;
-    padding-top: 55px;
-    clear: both;
-}
-
-#copyright p{
-    font-size: 12px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #ffffff;
-}
-
-/* ************************************************************************************************** */
-/* Gallery
-/* ************************************************************************************************** */
-
-.gallery img{
-    width: 100%
-}
-
-/* ************************************************************************************************** */
-/* Potplant
-/* ************************************************************************************************** */
-
-p{
-    padding-left: 20px;
-    padding-right: 20px;
-    font-family: monospace;
-    color: darkslategrey;
-}
+.table, th, td {
+     border: 5px solid rgba(195, 0, 255, 0.671);
+     border-collapse: collapse;
+     padding: 15px;
+  text-align: left;
+   }
 
 h2{
-    padding-left: 20px;
-    padding-right: 20px;
-    font-family: monospace;
-    color: darkslategrey;
+color:forestgreen;
+text-align:center;
 }
 
-h3{
-    padding-left: 20px;
-    padding-right: 20px;
-    font-family: monospace;
-    color: darkslategrey;
+/*==========================Button========================*/
+
+
+   #Buy .button{
+     background-color:crimson;
+     color: rgb(247, 223, 223);
+     border: 3px solid rgb(184, 11, 11);
+     padding: 1px;
+     text-align  : center;
+     display: block;
+     padding:15px;
+     width: 50%;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 20px;
+     font-weight: 600;
+     text-decoration: none;
 }
+ p{
+     margin  : 0;
+     padding : 1;
+     width   : 90%;
+     display: block;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color   : #131313;
+}
+
+
+
+#back{
+     background-color:rgb(243, 243, 243);
+     color: rgb(247, 223, 223);
+     border: 3px solid rgb(11, 224, 57);
+     padding: 1px;
+     text-align  : center;
+     display: block;
+     padding:15px;
+     text-decoration: none;
+     width: 50%;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 20px;
+     font-weight: 600;
+     
+}
+#back a{
+     text-decoration: none;
+     color:rgb(15, 156, 199);
+}
+/**************************form****************************/
+
+input{
+     width: 50%;
+     height: 25px;
+     background-color: rgba(7, 160, 221, 0.082);
+     margin : 12px 0;
+     border : 5px solid rgb(34, 155, 163);
+}
+
+textarea{
+     width: 50%;
+     height :80px;
+     background-color: rgba(7, 160, 221, 0.082);
+     margin : 10px 0;
+     border : 5px solid rgb(34, 155, 163);
+}
+#submit a{
+     text-decoration: none;
+     padding:5px;
+     background-color: rgb(34, 155, 163);
+     color:white;
+    border-style: 1px double yellow;
+}
+
